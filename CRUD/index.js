@@ -181,3 +181,78 @@ function validation() {
 }
 
 
+// var mahmoud = document.querySelector("#mahmoud")
+// var zain = document.querySelector("#zain")
+// var sasa = document.querySelector("#sasa")
+// console.log(mahmoud);
+// var arr = [mahmoud, zain, sasa];
+
+
+
+// document.body.addEventListener("mousemove", function (e) {
+//     ///               true                 false 
+//     if (e.target.tagName != "TEXTAREA" && e.target.tagName != "INPUT" && e.target.tagName != "BUTTON") {
+
+//         zain.style.top = e.clientY + "px";
+//         zain.style.left = e.clientX + "px";
+//     }
+
+// })
+// document.body.addEventListener("keyup", function (e) {
+//     if (e.target.tagName != "TEXTAREA" && e.target.tagName != "INPUT" && e.target.tagName != "BUTTON") {
+
+
+//         zain.setAttribute("src", mahmoud.src);
+//     }
+
+// })
+// document.body.addEventListener("click", function (e) {
+//     if (e.target.tagName != "TEXTAREA" && e.target.tagName != "INPUT" && e.target.tagName != "BUTTON") {
+
+
+//         zain.setAttribute("src", sasa.src);
+//     }
+
+// })
+// document.body.addEventListener("focusout", function (e) {
+//     if (e.target.tagName != "TEXTAREA" && e.target.tagName != "INPUT" && e.target.tagName != "BUTTON") {
+
+
+//         zain.setAttribute("src", zain.src);
+//     }
+
+// })
+// var mahmoud = document.querySelector("#mahmoud");
+// var zain = document.querySelector("#zain");
+// var sasa = document.querySelector("#sasa");
+// console.log(mahmoud);
+
+// document.body.addEventListener("mousemove", function (e) {
+//     // Ensure we don't move the image if the target is an input, button, or textarea
+//     if (e.target.tagName != "TEXTAREA" && e.target.tagName != "INPUT" && e.target.tagName != "BUTTON") {
+//         zain.style.top = e.clientY + "px";
+//         zain.style.left = e.clientX + "px";
+//     }
+// });
+
+// document.body.addEventListener("keyup", function (e) {
+//     // Ensure we don't change the src if the target is an input or button
+//     if (e.target.tagName != "INPUT" && e.target.tagName != "BUTTON") {
+//         zain.setAttribute("src", mahmoud.src);
+//     }
+// });
+
+// document.body.addEventListener("click", function (e) {
+//     // Ensure we only update src when not interacting with input or button
+//     if (e.target.tagName != "INPUT" && e.target.tagName != "BUTTON") {
+//         zain.setAttribute("src", sasa.src);
+//     }
+// });
+
+// document.body.addEventListener("focusout", function (e) {
+//     // Reset the src to zain's current src when focus moves away from input, button, or textarea
+//     if (e.target.tagName == "INPUT" || e.target.tagName == "TEXTAREA" || e.target.tagName == "BUTTON") {
+//         zain.setAttribute("src", zain.src);
+//     }
+// });
+

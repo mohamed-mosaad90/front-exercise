@@ -7,12 +7,7 @@
 body{
     /* cursor: none !important; */
 }
- img {
-    position: absolute;
-    width: 50px;
-/* display: none; */
-   
-}
+
 
 :root {
     --blue: #007bff;
