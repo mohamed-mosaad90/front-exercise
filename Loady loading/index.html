@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>CSS Animations Demo</h1>
+    <div class="animation-container">
+        <h2>Spinning Circle</h2>
+        <div class="spinning-circle"></div>
+        <input type="range" min="0.5" max="3" step="0.5" value="1.5" id="SpinningCircleColorRangeVolume" />
+
+        <input type="color" id="SpinningCircleColor">
+    </div>
+    <div class="animation-container">
+        <h2>Bouncing Dot</h2>
+        <div class="bouncing-dot-container">
+            <div class="bouncing-dot"></div>
+        </div>
+                <input type="range" min="0.5" max="3" step="0.5" value="1.5" id="bouncingDotRangeVolume" />
+                
+                <input type="color" id="bouncingDotColor">
+    </div>
+    <div class="animation-container">
+        <h2>Pulsating Ring</h2>
+        <div class="pulsating-ring"></div>
+                <input type="range" min="0.5" max="3" step="0.5" value="1.5" id="pulsatingRingRangeVolume" />
+                
+                <input type="color" id="pulsatingRingColor">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

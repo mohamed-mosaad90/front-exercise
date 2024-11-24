@@ -1,0 +1,113 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #444;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+/* Animation Containers */
+.animation-container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.animation-container input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Spinning Circle */
+.spinning-circle {
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+    border: 10px solid #4CAF50;
+    border-top: 10px solid transparent;
+    border-radius: 50%;
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Bouncing Dot */
+.bouncing-dot-container {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.bouncing-dot {
+    width: 20px;
+    height: 20px;
+    background-color: #FF5722;
+    border-radius: 50%;
+    animation: bounce 1.5s ease-in-out infinite;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+}
+
+/* Pulsating Ring */
+.pulsating-ring {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border: 5px solid rgba(33, 150, 243, 0.5);
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
